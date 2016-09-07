@@ -1,0 +1,28 @@
+h1, h2
+{
+    text-align: center;
+    font-family: sans-serif;
+}
+ul.list-decor
+{
+    margin-left: 0.5%;
+    font-size: 15pt;
+    list-style-type: square;
+}
+ol.decor
+{
+    margin-left: 0.5%;
+    font-size: 15pt;
+}
+li
+{
+    font-family: cursive;
+    margin-bottom: 0.3%;
+}
+h6
+{
+    font-size: 24px;
+    font-family: cursive;
+    text-align: right;
+    color: red;
+}
