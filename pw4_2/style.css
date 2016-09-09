@@ -1,0 +1,22 @@
+*
+{
+    font-size: 14pt;
+    font-family: serif;
+    font-style:italic;
+}
+h1,h2
+{
+    font-size: 25pt;
+    text-align: center;
+}
+li
+{
+    white-space: pre;
+    font-size: 22px;
+}
+ul
+{
+    text-align: center;
+    padding-right: 5%;
+    list-style-type: none;
+}
