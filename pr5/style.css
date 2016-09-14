@@ -1,0 +1,118 @@
+*
+{
+    font-family: sans-serif;
+    padding 0;
+    border 0;
+    margin: 0;
+}
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+.one
+{
+    min-width: 100%;
+    min-height: 20%;
+    position: absolute;
+}
+.two
+{
+    width: 70%;
+    height: 40%;
+    top: 20%;
+    position: relative;
+    float: right;
+}
+.three
+{
+    width: 30%;
+    height: 30%;
+    top: 20%;
+    position: relative;
+    float: left;
+}
+.four
+{
+    width: 70%;
+    height: 20%;
+    top: 20%;
+    position: relative;
+    float: right;
+}
+.five
+{
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 20%;
+    display: block;
+}
+h1
+{
+    font-size: 36pt;
+    margin-bottom: 40px;
+    color: #365610;
+}
+h2
+{
+    font-size: 30pt;
+    margin-bottom: 30px;
+}
+p
+{
+    text-indent: 20px;
+    line-height: 20px;
+    font-size: 16pt;
+}
+p::first-letter
+{
+    font-weight: bold;
+    color: #FF0000;
+}
+img
+{
+    white-space: normal;
+    margin: 10px;
+    border-width: thin;
+    border-style: double;
+    border-color: orange;
+    min-width: 10%;
+    min-height: 10%;
+    max-width: 50%;
+    max-height: 50%;
+}
+li
+{
+    font-size: 16pt;
+}
+a
+{
+    font-style: serif;
+    font-style: italic;
+}
+a:link
+{
+    color: #000000;
+    font-weight: 100;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #FF0033;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:active
+{
+    color: #CC00FF;
+    font-weight: bold;
+    background-color: #000099;
+    text-decoration: underline;
+}
+a:visited
+{
+    color: #CC9933;
+    font-weight: 100;
+    text-decoration: none;
+}
