@@ -12,41 +12,37 @@ html, body
 }
 .one
 {
-    min-width: 100%;
+    width: 100%;
     min-height: 20%;
-    position: absolute;
+    position: relative;
 }
 .two
 {
     width: 70%;
-    height: 40%;
-    top: 20%;
+    min-height: 40%;
     position: relative;
     float: right;
 }
 .three
 {
     width: 30%;
-    height: 30%;
-    top: 20%;
+    min-height: 30%;
     position: relative;
     float: left;
 }
 .four
 {
     width: 70%;
-    height: 20%;
-    top: 20%;
+    min-height: 20%;
     position: relative;
     float: right;
 }
 .five
 {
-    position: absolute;
-    bottom: 0;
-    min-width: 100%;
+    width: 100%;
     min-height: 20%;
-    display: block;
+    position: relative;
+    float: right;
 }
 h1
 {
@@ -72,15 +68,13 @@ p::first-letter
 }
 img
 {
-    white-space: normal;
     margin: 10px;
     border-width: thin;
     border-style: double;
     border-color: orange;
-    min-width: 10%;
-    min-height: 10%;
-    max-width: 50%;
-    max-height: 50%;
+    width: 16%;
+    height: 16%;
+    display: inline-block;
 }
 li
 {
