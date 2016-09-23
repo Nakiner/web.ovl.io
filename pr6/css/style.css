@@ -1,47 +1,42 @@
-*
+* /* Стили для всего документа, в т.ч и Шрифт */
 {
     padding 0;
     border 0;
     margin: 0;
     font-family: "Tahoma";
 }
-html, body
+html, body /* Стили для HTML-документа: Ширина и высота */
 {
     height: 100%;
     width: 100%;
 }
-.header /*header: images, links, bottom-pictures*/
+.header /* Шапка сайта */
 {
     display: block;
     position: relative;
-    width: 100%;
-    height: 25%;
+    width: 1280px;
+    height: 200px;
+    margin: 0 auto;
 }
-.house
+.house /* Иконка домика */
 {
-    margin-left: 5%;
-    margin-right: 1%;
+    margin-left: 55px;
+    margin-right: 20px;
 }
-.social
+.social /* Иконка соц.сетей */
 {
     float: right;
-    margin-right: 4%;
-    margin-top: 0.4%;
+    margin-right: 40px;
+    margin-top: 4px;
 }
-.banner
+.flag /* Иконка англ.флага */
 {
-    margin-right: 37%;
-    margin-top: 0.2%;
-    float: right;
-}
-.flag
-{
-    margin-right: 3%;
+    margin-right: 45px;
     opacity: 0.8;
     max-width: 32px;
     max-height: 32px;
 }
-.upper
+.upper /* Левая половина шапки */
 {
     display: block;
     opacity: 0.8;
@@ -50,7 +45,7 @@ html, body
     float: left;
     background-color: rgb(85,85,85);
 }
-.upper2
+.upper2 /* Правая половина шапки */
 {
     display: block;
     opacity: 0.8;
@@ -59,14 +54,15 @@ html, body
     float: right;
     background-color: rgb(85,85,85);
 }
-.upper2 a
+.upper2 a /* Стиль для ссылок в прав.половине шапки */
 {
-    margin-top: 0.5%;
+    margin-top: 1%;
     margin-right: 2%;
     display: inline-block;
     color: white;
+    font-size: 10pt;
 }
-.logo
+.logo /* Логотип шапки */
 {
     display: block;
     position: relative;
@@ -76,17 +72,18 @@ html, body
     background: url("https://web.ovl.io/pr6/img/logo.png") no-repeat;
     background-size: contain;
 }
-.banner-pic
+.banner-pic /* Баннер в шапке */
 {
+    margin-top: 5px;
     display: block;
     position: relative;
     float: left;
     height: 25%;
     width: 61%;
-    background: url("https://web.ovl.io/pr6/img/ur_banner.png") no-repeat;
+    background: url("https://web.ovl.io/pr6/img/ur_banner.jpg") no-repeat;
     background-size: contain;
 }
-.nav /*navigation*/
+.nav /* Навигация сайта */
 {
     display: block;
     position: relative;
@@ -97,39 +94,265 @@ html, body
     background-size: contain;
     background-position: center;
 }
-.list a
+.list a /* Класс список для ссылок */
 {
     color: white;
     text-decoration: none;
 }
-.list li
+.list li /* Элемент списка навигации */
 {
     display: inline-block;
-    margin-top: 2.5%;
-    margin-left: 1.8%;
+    margin-top: 2.7%;
+    margin-left: 1.3%;
 }
-.list li:first-child
+.list li:first-child /* Первый элемент списка навигации */
 {
-    margin-left: -4%;
+    margin-left: -3%;
 }
-.list
+.list /* Класс списка элементов */
 {
-    width: 100%;
+    width: 97%;
     height: 100%;
     text-align: center;
     font-size: 12px;
     position: relative;
     list-style-type: none;
 }
-.afterpic
+.afterpic /* Класс для разделения списка пополам визуально */
 {
-    padding-left: 14%;
+    padding-left: 16%;
 }
-.content
+.content /* Стили для контента сайта */
 {
+    background-color: white;
+    padding: 0.5%;
+    margin: 2% auto;
+    width: 990px;
+    height: 950px;
+    display: block;
+    position: relative;
+}
+.vert-line /* Вертикальная линия контента */
+{
+    width: 1px;
+    margin-left: 63.5%;
+    height: 97%;
+    background-color: #d2d2d2;
+    position: absolute;
+}
+.left-side /* левая половина контента */
+{
+    float: left;
+    background-color: #f5f5f5;
+    height: 99.5%;
+    width: 64%;
+    display: block;
+    position: relative;
+}
+.right-side /* Правая половина контента */
+{
+    float:right;
+    height: 99%;
+    width: 34%;
+    display: block;
+    position: relative;
+}
+.content-pic /* Баннер левой половины */
+{
+    margin: 0.5%;
+    display: block;
+    height: 26%;
+    width: 99%;
+    background: url("https://web.ovl.io/pr6/img/slide.png") no-repeat;
+    background-size: contain;
+}
+.news /* Класс для элементов левой половины */
+{
+    color: #767676;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0.5%;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #e4e4e4;
+    width: 98%;
+    height: 72%;
+}
+.news a /* Класс ссылок в элементах */
+{
+    text-decoration: none;
+    color: #767676;
+}
+.news a:visited /* Посещённая ссылка */
+{
+    color: #767676;
+}
+.news a:link /* Не посещённая ссылка */
+{
+    color: #767676;
+}
+.news-child /* Элемент списка новостей */
+{
+    margin: 1%;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #e4e4e4;
+    width: 97.5%;
+    height: 14.5%;
+}
+.logo-child /* Баннер элемента новостей */
+{
+    margin-top: 1%;
+    float: left;
+    margin: 1%;
+    display: block;
+    height: 88%;
+    width: 25%;
+    background: url("https://web.ovl.io/pr6/img/logo-child.png") no-repeat;
+    background-size: contain;
+}
+.text-child /* Текст элемента новостей */
+{
+    font-size: 9pt;
+    color: #acacac;
+    margin: 0.5%;
+    display: block;
+    position: relative;
+}
+.icons /* Иконки элемента новостей */
+{
+    display: inline-block;
+    font-size: 11pt;
+    color: #acacac;
+}
+.rep /* Иконка репоста */
+{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+.comm /* Иконка комментариев */
+{
+    margin-left: 28px;
+    margin-top: 10px;
+    margin-right: 7px;
+}
+.date /* Стиль для вывода даты */
+{
+    font-size: 8pt;
+    margin-left: 30px;
+    font-style: italic;
+}
+.icon-links /* Стили для ссылок в блоке иконок */
+{
+    text-decoration: none;
+    font-size: 8pt;
+    margin-left: 30px;
+}
+.pages /* Стили для блока страниц новостей(1 2 3 4) */
+{
+    text-decoration: none;
+    font-size: 8pt;
+    background-color: #f5f5f5;
+    color: #acacac;
 
 }
-.footer
+.pages a /* Стили для ссылок навигации */
 {
-
+    color: #acacac;
+    text-decoration: none;
+    margin-right: 2px;
+}
+.pages a:first-child /* Для первого элемента */
+{
+    margin-right: 215px;
+    margin-left: 10px;
+}
+.pages a:last-child /* Для последнего элемента */
+{
+    float: right;
+    margin-right: 10px;
+}
+.icons a:last-child /* Стили для последней ссылки в блоке иконок */
+{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 8pt;
+}
+.icons a:visited, .icons a:link, .pages a:visited, .pages a:link /* Посещенные и не посещенные ссылки в блоках иконок и навигации новостей */
+{
+    color: #acacac;
+}
+.box /* Заливка фона в правой стороне */
+{
+    background-color: #f5f5f5;
+    padding: 2%;
+    margin-bottom: 4px;
+}
+.right-side span /* Заголовки в правой стороне */
+{
+    color: #9b9b9b;
+    font-size: 14pt;
+}
+.right-side hr /* Линия в правом блоке */
+{
+    color: #cfcfcf;
+    margin-bottom: 8px;
+}
+.footer /* Подвал сайта */
+{
+    display: block;
+    position: relative;
+    width: 1005px;
+    height: 118px;
+    background: url("https://web.ovl.io/pr6/img/footer.png");
+    background-size: contain;
+    margin: 0 auto;
+}
+.footer-list /* Стили для блока с ссылками в футере */
+{
+    font-size: 10pt;
+    padding-top: 12px;
+}
+.footer-list a /* Стили для ссылки в блоке */
+{
+    margin-top: 12px;
+    text-decoration: none;
+    margin-right: 15px;
+    color: white;
+}
+.footer-list a:first-child /* Первая ссылка */
+{
+    margin-left: 218px;
+    color: white;
+}
+.footer-list a:last-child /* Последняя */
+{
+    color: white;
+}
+.footer-list a:visited, a:link /* Посещенные и не посещенные ссылки */
+{
+    color: white;
+}
+.footer img /* Стили для картинки в футере */
+{
+    margin-top: 4px;
+    height: 70%;
+}
+.footer span /* Стили для текста в футере */
+{
+    color: white;
+    font-size: 10pt;
+    position: absolute;
+    margin-left: 36px;
+    margin-top: 40px;
+}
+.footer span:first-child /* Первый элемент текста */
+{
+    margin-top: 50px;
+}
+.footer span:last-child /* Последний элемент текста */
+{
+    margin-top: 60px;
 }

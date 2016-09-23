@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html style="background-image: url(img/bg.jpg);">
+<!-- HTML , бэкграунд сайта, голова сайта и подключение стилей. -->
     <head>
         <title>Практическая работа №6</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8" />
     </head>
+    <!-- Тело сайта, все основные блоки: header,footer,content. -->
     <body>
-        <div class="header">
-            <div class="upper">
+        <div class="header"><!-- header: голова сайта, там прасположена навигация и шапка. -->
+            <div class="upper"><!-- Половина шапки с иконками. -->
                 <img src="img/house.png" class="house"/>
                 <img src="img/rus.png" style="opacity: 0.8;"/>
                 <img src="img/eng.png" class="flag"/>
                 <img src="img/search.png" />
             </div>
-            <div class="upper2">
+            <div class="upper2"><!-- Вторая половина шапки с ссылками и иконками. -->
                 <a href="#">Войти</a>
                 <a href="#">Регистрация</a>
                 <img src="img/social.jpg" class="social"/>
             </div>
-            <div class="logo"></div>
-            <div class="banner-pic"></div>
-            <div class="nav">
-                <ul class="list">
+            <div class="logo"></div><!-- Логотип. -->
+            <div class="banner-pic"></div><!-- Баннер. -->
+            <div class="nav"><!-- Навигация, включаетв себя также класс список. -->
+                <ul class="list"><!-- Список, вывод элементов на картинке навигации. -->
                     <li>
                         <a href="#">ГЛАВНАЯ</a>
                     </li>
@@ -35,7 +37,7 @@
                     <li>
                         <a href="#">КОМАНДА</a>
                     </li>
-                    <li class="afterpic">
+                    <li class="afterpic"><!-- Класс, позволяющий сдвинуть вправо полвину списка. -->
                         <a href="#">ПАРТНЕРЫ</a>
                     </li>
                     <li>
@@ -50,11 +52,148 @@
                 </ul>
             </div>
         </div>
-        <div class="content">
-
+        <div class="content"><!-- Контент, основной блок -->
+            <div class="vert-line"></div><!-- Вертикальная линия, разделяющая контент -->
+            <div class="left-side"><!-- Левая половина контента -->
+                <div class="content-pic"></div><!-- Баннер левой половины -->
+                <div class="news"><!-- Блок под фото, новости -->
+                    Новости<a href="#" style="float: right; margin-right: 0.5%;">все</a>
+                    <hr color="#cecece" />
+                    <div class="news-child"><!-- Элемент блока новостей -->
+                        <div class="logo-child"></div><!-- Баннер элемента новостей -->
+                        <div class="text-child"><!-- Текст внутри элемента новостей -->
+                            Теперь куда легче будет найти отдельные карты и даже новые гейм-моды,наподобии уже полюбившихся народу GunGame и ZombieMode.
+                            Которые, кстати говоря, тоже когда-то появились на свет исключительно благодаря фантазии и упорству простых игроков из мира CS 1.6
+                        </div>
+                        <div class="icons"><!-- Иконки в элементе новостей -->
+                            <a href="#"><img src="img/rep.png" class="rep"/></a>53
+                            <a href="#" class="next-time"><img src="img/comm.png" class="comm"/></a>12
+                            <span class="date">07.02.2013 20:34</span>
+                            <a href="#" class="icon-links">Комментировать</a>
+                            <a href="#">Читать</a>
+                        </div>
+                    </div>
+                    <div class="news-child">
+                        <div class="logo-child"></div>
+                        <div class="text-child">
+                            Теперь куда легче будет найти отдельные карты и даже новые гейм-моды,наподобии уже полюбившихся народу GunGame и ZombieMode.
+                            Которые, кстати говоря, тоже когда-то появились на свет исключительно благодаря фантазии и упорству простых игроков из мира CS 1.6
+                        </div>
+                        <div class="icons">
+                            <a href="#"><img src="img/rep.png" class="rep"/></a>53
+                            <a href="#" class="next-time"><img src="img/comm.png" class="comm"/></a>12
+                            <span class="date">07.02.2013 20:34</span>
+                            <a href="#" class="icon-links">Комментировать</a>
+                            <a href="#">Читать</a>
+                        </div>
+                    </div>
+                    <div class="news-child">
+                        <div class="logo-child"></div>
+                        <div class="text-child">
+                            Теперь куда легче будет найти отдельные карты и даже новые гейм-моды,наподобии уже полюбившихся народу GunGame и ZombieMode.
+                            Которые, кстати говоря, тоже когда-то появились на свет исключительно благодаря фантазии и упорству простых игроков из мира CS 1.6
+                        </div>
+                        <div class="icons">
+                            <a href="#"><img src="img/rep.png" class="rep"/></a>53
+                            <a href="#" class="next-time"><img src="img/comm.png" class="comm"/></a>12
+                            <span class="date">07.02.2013 20:34</span>
+                            <a href="#" class="icon-links">Комментировать</a>
+                            <a href="#">Читать</a>
+                        </div>
+                    </div>
+                    <div class="news-child">
+                        <div class="logo-child"></div>
+                        <div class="text-child">
+                            Теперь куда легче будет найти отдельные карты и даже новые гейм-моды,наподобии уже полюбившихся народу GunGame и ZombieMode.
+                            Которые, кстати говоря, тоже когда-то появились на свет исключительно благодаря фантазии и упорству простых игроков из мира CS 1.6
+                        </div>
+                        <div class="icons">
+                            <a href="#"><img src="img/rep.png" class="rep"/></a>53
+                            <a href="#" class="next-time"><img src="img/comm.png" class="comm"/></a>12
+                            <span class="date">07.02.2013 20:34</span>
+                            <a href="#" class="icon-links">Комментировать</a>
+                            <a href="#">Читать</a>
+                        </div>
+                    </div>
+                    <div class="news-child">
+                        <div class="logo-child"></div>
+                        <div class="text-child">
+                            Теперь куда легче будет найти отдельные карты и даже новые гейм-моды,наподобии уже полюбившихся народу GunGame и ZombieMode.
+                            Которые, кстати говоря, тоже когда-то появились на свет исключительно благодаря фантазии и упорству простых игроков из мира CS 1.6
+                        </div>
+                        <div class="icons">
+                            <a href="#"><img src="img/rep.png" class="rep"/></a>53
+                            <a href="#" class="next-time"><img src="img/comm.png" class="comm"/></a>12
+                            <span class="date">07.02.2013 20:34</span>
+                            <a href="#" class="icon-links">Комментировать</a>
+                            <a href="#">Читать</a>
+                        </div>
+                    </div>
+                    <div class="news-child">
+                        <div class="logo-child"></div>
+                        <div class="text-child">
+                            Теперь куда легче будет найти отдельные карты и даже новые гейм-моды,наподобии уже полюбившихся народу GunGame и ZombieMode.
+                            Которые, кстати говоря, тоже когда-то появились на свет исключительно благодаря фантазии и упорству простых игроков из мира CS 1.6
+                        </div>
+                        <div class="icons">
+                            <a href="#"><img src="img/rep.png" class="rep"/></a>53
+                            <a href="#" class="next-time"><img src="img/comm.png" class="comm"/></a>12
+                            <span class="date">07.02.2013 20:34</span>
+                            <a href="#" class="icon-links">Комментировать</a>
+                            <a href="#">Читать</a>
+                        </div>
+                    </div>
+                    <div class="pages"><!-- Блок для вывода страниц -->
+                        <a href="#" class="pages">Пред.</a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#" class="pages">4</a>
+                        <a href="#" class="pages">5</a>
+                        <a href="#" class="pages">6</a>
+                        <a href="#" class="pages">7</a>
+                        <a href="#" class="pages">8</a>
+                        <a href="#" class="pages">9</a>
+                        <a href="#" class="pages">10</a>
+                        <a href="#" class="pages">Следующая</a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side"><!-- Правая сторона контента -->
+                <div class="box"><!-- Блок для вывода элементов с заливкой -->
+                    <img src="img/asus.png" width="324" height="233"/>
+                </div>
+                <span>Вход</span>
+                <hr />
+                <div class="box">
+                    <img src="img/form.png" width="324" height="100"/>
+                </div>
+                <span>Видео недели</span>
+                <hr />
+                <div class="box">
+                    <img src="img/video.png" width="324"/>
+                </div>
+                <span>Партнеры</span>
+                <hr />
+                <div class="box">
+                    <img src="img/partners.png" width="324" height="145"/>
+                </div>
+            </div>
         </div>
-        <div class="footer">
-
+        <div class="footer"><!-- Подвал сайта -->
+            <div class="footer-list"><!-- Блок, для вывода меню -->
+                <a href="#">Главная</a>
+                <a href="#">Новости</a>
+                <a href="#">Видео</a>
+                <a href="#">Команда</a>
+                <a href="#">Партнеры</a>
+                <a href="#">Stream</a>
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
+            </div>
+            <img src="img/banner_footer.png" style="margin-left: 165px;"/>
+            <span>Copyright</span>
+            <span>2013 © tardz.org</span>
         </div>
     </body>
 </html>
