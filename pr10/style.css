@@ -1,0 +1,22 @@
+table
+{
+    border-collapse: collapse;
+    border-width: 1px;
+}
+td
+{
+    border-width: 1px;
+}
+.param
+{
+    text-align: left;
+}
+tr
+{
+    text-align: center;
+    vertical-align: top;
+}
+tr:hover
+{
+    background: lightgrey;
+}
