@@ -23,9 +23,10 @@
 				<?
 					$log = 'admin';
 					$pwd = 'pass12';
-					if(isset($_POST['log']) && $_POST['log'] == $log && $_POST['pwd'] == $pwd) echo 'Привет, '.$_POST['log'];
-					else echo '<form class="form" method="post">
-						<label><b>Имя пользователя</b></label><br />
+					if(isset($_POST['log']) && $_POST['log'] == $log && $_POST['pwd'] == $pwd) echo '<br /><h3 align="center">Привет, '.$_POST['log'].'</h3>';
+					else if(isset($_POST['log']) && $_POST['log'] != $log && $_POST['pwd'] != $pwd) echo '<br /><h3 align="center">Введены неверные данные</h3>';
+                    else echo '
+                    <form class="form" method="post"><label><b>Имя пользователя</b></label><br />
 						<input type="text" maxlength="30" name="log" class="inp">
 						<br /><br />
 						<label><b>Пароль</b></label><br />
