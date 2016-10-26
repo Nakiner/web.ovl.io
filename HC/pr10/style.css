@@ -20,3 +20,7 @@ tr:hover
 {
     background: lightgrey;
 }
+tr:first-child
+{
+    background: white;
+}
