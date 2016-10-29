@@ -1,2 +1,1 @@
-admin|pass|Емельянов|Павел|Николаевич|Мужской|admin@ovl.io|18|held|4|я студент
-dwqwd|dwqwd|dwqwd|dwqwd|dwqwd|Мужской|admin@ovl.io|12|213ewfwdf|2|ya shpek
+﻿

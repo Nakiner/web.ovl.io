@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="style.css" />
         <meta charset="utf-8" />
     </head>
-    <body style="background: grey;">
+    <body>
         <div class="regdiv">
             <form method="post" align="center" class="regform">
                 <label>Логин</label><br />
